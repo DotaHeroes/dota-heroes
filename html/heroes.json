@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Anti-Mage",
+      "role": "Керри",
+      "description": "Отлично справляется с магическими противниками",
+      "image": "https://cdn.dota2.com/apps/dota2/images/heroes/antimage_full.png"
+    },
+    {
+      "name": "Axe",
+      "role": "Инициатор",
+      "description": "Танк ближнего боя с мощной инициацией",
+      "image": "https://cdn.dota2.com/apps/dota2/images/heroes/axe_full.png"
+    },
+    {
+      "name": "Bane",
+      "role": "Поддержка",
+      "description": "Мастер обездвиживания врагов магией",
+      "image": "https://cdn.dota2.com/apps/dota2/images/heroes/bane_full.png"
+    },
+    {
+      "name": "Crystal Maiden",
+      "role": "Поддержка",
+      "description": "Заклинательница, ускоряющая восстановление маны у союзников",
+      "image": "https://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_full.png"
+    },
+    {
+      "name": "Juggernaut",
+      "role": "Керри",
+      "description": "Проекарсный боец ближнего боя с огромным потанциалом на игру",
+      "image": "https://cdn.dota2.com/apps/dota2/images/heroes/juggernaut_full.png"
+    }
+  ]
+  

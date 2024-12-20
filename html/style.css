@@ -1,0 +1,101 @@
+/* Основные стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  color: #f2a900;
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Стили для поиска */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#search {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #f2a900;
+  border-radius: 5px;
+  outline: none;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+#search:focus {
+  border-color: #f2a900;
+  box-shadow: 0 0 5px #f2a900;
+}
+
+/* Стили для карточек героев */
+.hero-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hero-card {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hero-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hero-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0 10px;
+  color: #f2a900;
+}
+
+.hero-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #cccccc;
+}
+
+.hero-role {
+  margin-top: 10px;
+  font-style: italic;
+  color: #888888;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #1f1f1f;
+  color: #888888;
+  font-size: 14px;
+  border-top: 1px solid #333;
+}
